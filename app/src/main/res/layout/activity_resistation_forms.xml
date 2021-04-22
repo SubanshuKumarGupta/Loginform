@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFB700"
+    tools:context=".RegistrationActivity">
+     <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:background="@drawable/roundedit"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:drawableLeft="@drawable/ic_baseline_person_25"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:paddingStart="10dp"
+        android:textSize="18sp"
+        android:background="@drawable/roundedit"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/ic_baseline_attach_email_24"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="18sp"
+        android:drawableLeft="@drawable/ic_baseline_security_26"
+        android:background="@drawable/roundedit"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:padding="5dp"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textSize="18sp"
+        android:background="@drawable/roundedit"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/ic_baseline_security_26"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"/>
+
+
+
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="Registration"
+        android:background="@drawable/roundedit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginTop="10dp"
+        android:textColor="#F30F0F"
+        android:textSize="20sp"
+         android:text="Alreday have an Account?"/>
+
+</LinearLayout>
+
